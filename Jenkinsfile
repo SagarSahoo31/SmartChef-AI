@@ -5,7 +5,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/SagarSahoo31/SmartChef-AI.git'
+                git branch: 'main',
+                    url: 'https://github.com/SagarSahoo31/SmartChef-AI.git'
             }
         }
 
@@ -17,8 +18,8 @@ pipeline {
 
         stage('Stop Existing Container') {
             steps {
-                bat 'docker stop smartchef-container || exit 0'
-                bat 'docker rm smartchef-container || exit 0'
+                bat 'docker stop smartchef-container'
+                bat 'docker rm smartchef-container'
             }
         }
 
