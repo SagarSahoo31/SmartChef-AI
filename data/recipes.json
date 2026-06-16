@@ -1,0 +1,858 @@
+[
+  {
+    "name": "Egg Fried Rice",
+    "cuisine": "Chinese",
+    "ingredients": ["rice", "egg", "onion", "soy sauce"],
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "description": "Classic Chinese fried rice.",
+    "steps": ["Cook rice", "Scramble egg", "Mix and stir fry", "Serve hot"],
+    "substitutions": {"egg": ["tofu"]}
+  },
+  {
+    "name": "Vegetable Fried Rice",
+    "cuisine": "Chinese",
+    "ingredients": ["rice", "carrot", "beans", "onion", "soy sauce"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Vegetable loaded fried rice.",
+    "steps": ["Cook rice", "Cook vegetables", "Mix together", "Serve"],
+    "substitutions": {"beans": ["peas"]}
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "cuisine": "Chinese",
+    "ingredients": ["rice", "chicken", "onion", "soy sauce"],
+    "time": "25 mins",
+    "difficulty": "Medium",
+    "description": "Fried rice with chicken.",
+    "steps": ["Cook rice", "Cook chicken", "Mix together", "Serve"],
+    "substitutions": {"chicken": ["paneer", "tofu"]}
+  },
+  {
+    "name": "Schezwan Fried Rice",
+    "cuisine": "Chinese",
+    "ingredients": ["rice", "schezwan sauce", "onion"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Spicy Chinese fried rice.",
+    "steps": ["Cook rice", "Add sauce", "Mix", "Serve"],
+    "substitutions": {"schezwan sauce": ["chilli sauce"]}
+  },
+  {
+    "name": "Hakka Noodles",
+    "cuisine": "Chinese",
+    "ingredients": ["noodles", "cabbage", "carrot", "soy sauce"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Popular Indo-Chinese noodles.",
+    "steps": ["Boil noodles", "Cook vegetables", "Mix", "Serve"],
+    "substitutions": {"cabbage": ["lettuce"]}
+  },
+  {
+    "name": "Veg Hakka Noodles",
+    "cuisine": "Chinese",
+    "ingredients": ["noodles", "carrot", "beans", "cabbage"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Vegetarian hakka noodles.",
+    "steps": ["Boil noodles", "Cook vegetables", "Mix", "Serve"],
+    "substitutions": {"beans": ["peas"]}
+  },
+  {
+    "name": "Garlic Noodles",
+    "cuisine": "Chinese",
+    "ingredients": ["noodles", "garlic", "soy sauce", "spring onion"],
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "description": "Garlic flavored noodles.",
+    "steps": ["Boil noodles", "Saute garlic", "Mix", "Serve"],
+    "substitutions": {"garlic": ["garlic powder"]}
+  },
+  {
+    "name": "Chilli Paneer",
+    "cuisine": "Chinese",
+    "ingredients": ["paneer", "capsicum", "onion", "soy sauce"],
+    "time": "25 mins",
+    "difficulty": "Medium",
+    "description": "Spicy paneer appetizer.",
+    "steps": ["Fry paneer", "Cook vegetables", "Add sauces", "Serve"],
+    "substitutions": {"paneer": ["tofu"]}
+  },
+  {
+    "name": "Chilli Chicken",
+    "cuisine": "Chinese",
+    "ingredients": ["chicken", "capsicum", "onion", "soy sauce"],
+    "time": "30 mins",
+    "difficulty": "Medium",
+    "description": "Popular spicy chicken dish.",
+    "steps": ["Cook chicken", "Cook vegetables", "Mix", "Serve"],
+    "substitutions": {"chicken": ["paneer"]}
+  },
+  {
+    "name": "Veg Manchurian",
+    "cuisine": "Chinese",
+    "ingredients": ["cabbage", "carrot", "corn flour", "soy sauce"],
+    "time": "30 mins",
+    "difficulty": "Medium",
+    "description": "Vegetable dumplings in sauce.",
+    "steps": ["Make balls", "Fry", "Prepare sauce", "Serve"],
+    "substitutions": {"corn flour": ["all purpose flour"]}
+  },
+  {
+    "name": "Chicken Manchurian",
+    "cuisine": "Chinese",
+    "ingredients": ["chicken", "corn flour", "soy sauce"],
+    "time": "35 mins",
+    "difficulty": "Medium",
+    "description": "Chicken cooked in manchurian sauce.",
+    "steps": ["Cook chicken", "Prepare sauce", "Mix", "Serve"],
+    "substitutions": {"chicken": ["paneer"]}
+  },
+  {
+    "name": "Spring Rolls",
+    "cuisine": "Chinese",
+    "ingredients": ["cabbage", "carrot", "spring roll sheets"],
+    "time": "30 mins",
+    "difficulty": "Medium",
+    "description": "Crispy vegetable rolls.",
+    "steps": ["Prepare filling", "Roll", "Fry", "Serve"],
+    "substitutions": {"spring roll sheets": ["wonton wrappers"]}
+  },
+  {
+    "name": "Hot and Sour Soup",
+    "cuisine": "Chinese",
+    "ingredients": ["mushroom", "carrot", "vinegar", "pepper"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Tangy Chinese soup.",
+    "steps": ["Boil vegetables", "Season", "Serve"],
+    "substitutions": {"mushroom": ["tofu"]}
+  },
+  {
+    "name": "Sweet Corn Soup",
+    "cuisine": "Chinese",
+    "ingredients": ["sweet corn", "corn flour", "pepper"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Creamy corn soup.",
+    "steps": ["Boil corn", "Thicken soup", "Serve"],
+    "substitutions": {"sweet corn": ["baby corn"]}
+  },
+  {
+    "name": "Kung Pao Chicken",
+    "cuisine": "Chinese",
+    "ingredients": ["chicken", "peanuts", "soy sauce", "capsicum"],
+    "time": "30 mins",
+    "difficulty": "Medium",
+    "description": "Spicy stir-fried chicken dish.",
+    "steps": ["Cook chicken", "Add vegetables", "Add sauce", "Serve"],
+    "substitutions": {"chicken": ["tofu"]}
+  },
+    {
+        "name": "Schezwan Noodles",
+        "cuisine": "Chinese",
+        "ingredients": ["noodles", "schezwan sauce", "onion"],
+        "time": "20 mins",
+        "difficulty": "Easy",
+        "description": "Spicy noodles with schezwan sauce.",
+        "steps": ["Boil noodles", "Add sauce", "Mix", "Serve"],
+        "substitutions": {"schezwan sauce": ["chilli sauce"]}
+    },
+    {
+        "name": "Veg Spring Rolls",
+        "cuisine": "Chinese",
+        "ingredients": ["cabbage", "carrot", "spring roll sheets"],
+        "time": "30 mins",
+        "difficulty": "Medium",
+        "description": "Crispy vegetable spring rolls.",
+        "steps": ["Prepare filling", "Roll", "Fry", "Serve"],
+        "substitutions": {"spring roll sheets": ["wonton wrappers"]}
+    },
+    {
+        "name": "Chicken Spring Rolls",
+        "cuisine": "Chinese",
+        "ingredients": ["chicken", "carrot", "spring roll sheets"],
+        "time": "30 mins",
+        "difficulty": "Medium",
+        "description": "Crispy chicken spring rolls.",
+        "steps": ["Prepare filling", "Roll", "Fry", "Serve"],
+        "substitutions": {"chicken": ["paneer"], "spring roll sheets": ["wonton wrappers"]}
+    },
+  {
+    "name": "Tomato Rice",
+    "cuisine": "Indian",
+    "ingredients": ["rice", "tomato", "onion"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Tangy rice dish made with tomatoes and spices.",
+    "steps": ["Cook rice", "Cook tomato mixture", "Mix together", "Serve hot"],
+    "substitutions": {"tomato": ["tomato puree"]}
+  },
+  {
+    "name": "Lemon Rice",
+    "cuisine": "Indian",
+    "ingredients": ["rice", "lemon", "peanuts"],
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "description": "South Indian flavored rice with lemon.",
+    "steps": ["Cook rice", "Prepare tempering", "Add lemon", "Mix and serve"],
+    "substitutions": {"peanuts": ["cashews"]}
+  },
+  {
+    "name": "Jeera Rice",
+    "cuisine": "Indian",
+    "ingredients": ["rice", "cumin", "ghee"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Simple aromatic rice flavored with cumin.",
+    "steps": ["Cook rice", "Roast cumin", "Mix with rice", "Serve"],
+    "substitutions": {"ghee": ["butter"]}
+  },
+  {
+    "name": "Vegetable Pulao",
+    "cuisine": "Indian",
+    "ingredients": ["rice", "carrot", "beans", "peas"],
+    "time": "30 mins",
+    "difficulty": "Easy",
+    "description": "Mixed vegetable rice dish.",
+    "steps": ["Cook vegetables", "Add rice", "Cook together", "Serve"],
+    "substitutions": {"peas": ["corn"]}
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "cuisine": "Indian",
+    "ingredients": ["paneer", "tomato", "butter", "cream"],
+    "time": "35 mins",
+    "difficulty": "Medium",
+    "description": "Rich creamy paneer curry.",
+    "steps": ["Prepare gravy", "Add paneer", "Cook", "Serve"],
+    "substitutions": {"cream": ["milk"]}
+  },
+  {
+    "name": "Chole Masala",
+    "cuisine": "Indian",
+    "ingredients": ["chickpeas", "tomato", "onion"],
+    "time": "40 mins",
+    "difficulty": "Medium",
+    "description": "Spiced chickpea curry.",
+    "steps": ["Cook chickpeas", "Prepare gravy", "Mix", "Serve"],
+    "substitutions": {"chickpeas": ["white beans"]}
+  },
+  {
+    "name": "Rajma Curry",
+    "cuisine": "Indian",
+    "ingredients": ["kidney beans", "tomato", "onion"],
+    "time": "45 mins",
+    "difficulty": "Medium",
+    "description": "North Indian kidney bean curry.",
+    "steps": ["Cook rajma", "Prepare gravy", "Mix", "Serve"],
+    "substitutions": {"kidney beans": ["black beans"]}
+  },
+  {
+    "name": "Poha",
+    "cuisine": "Indian",
+    "ingredients": ["poha", "onion", "peanuts"],
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "description": "Popular Indian breakfast dish.",
+    "steps": ["Wash poha", "Cook onion", "Mix", "Serve"],
+    "substitutions": {"peanuts": ["cashews"]}
+  },
+  {
+    "name": "Upma",
+    "cuisine": "Indian",
+    "ingredients": ["semolina", "onion", "mustard seeds"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Savory semolina breakfast.",
+    "steps": ["Roast semolina", "Prepare tempering", "Cook", "Serve"],
+    "substitutions": {"semolina": ["broken wheat"]}
+  },
+  {
+    "name": "Masala Dosa",
+    "cuisine": "Indian",
+    "ingredients": ["dosa batter", "potato", "onion"],
+    "time": "30 mins",
+    "difficulty": "Medium",
+    "description": "Crispy dosa with potato filling.",
+    "steps": ["Prepare filling", "Cook dosa", "Fill and serve"],
+    "substitutions": {"potato": ["sweet potato"]}
+  },
+  {
+    "name": "Aloo Paratha",
+    "cuisine": "Indian",
+    "ingredients": ["wheat flour", "potato", "butter"],
+    "time": "30 mins",
+    "difficulty": "Medium",
+    "description": "Stuffed potato flatbread.",
+    "steps": ["Prepare stuffing", "Make dough", "Cook", "Serve"],
+    "substitutions": {"butter": ["ghee"]}
+  },
+  {
+    "name": "Palak Paneer",
+    "cuisine": "Indian",
+    "ingredients": ["spinach", "paneer", "cream"],
+    "time": "35 mins",
+    "difficulty": "Medium",
+    "description": "Spinach based paneer curry.",
+    "steps": ["Cook spinach", "Blend", "Add paneer", "Serve"],
+    "substitutions": {"paneer": ["tofu"]}
+  },
+  {
+    "name": "Dal Tadka",
+    "cuisine": "Indian",
+    "ingredients": ["lentils", "onion", "tomato"],
+    "time": "25 mins",
+    "difficulty": "Easy",
+    "description": "Tempered lentil curry.",
+    "steps": ["Cook dal", "Prepare tadka", "Mix", "Serve"],
+    "substitutions": {"lentils": ["split peas"]}
+  },
+  {
+    "name": "Vegetable Biryani",
+    "cuisine": "Indian",
+    "ingredients": ["rice", "carrot", "beans", "peas"],
+    "time": "50 mins",
+    "difficulty": "Hard",
+    "description": "Layered aromatic rice dish.",
+    "steps": ["Cook rice", "Cook vegetables", "Layer", "Dum cook"],
+    "substitutions": {"peas": ["corn"]}
+  },
+  {
+    "name": "Paneer Tikka",
+    "cuisine": "Indian",
+    "ingredients": ["paneer", "yogurt", "capsicum"],
+    "time": "30 mins",
+    "difficulty": "Medium",
+    "description": "Grilled paneer appetizer.",
+    "steps": ["Marinate paneer", "Skewer", "Grill", "Serve"],
+    "substitutions": {"paneer": ["tofu"]}
+  },
+  {
+    "name": "Chicken Tikka",
+    "cuisine": "Indian",
+    "ingredients": ["chicken", "yogurt", "ginger garlic paste", "chilli powder"],
+    "time": "40 mins",
+    "difficulty": "Medium",
+    "description": "Marinated chicken grilled until tender and smoky.",
+    "steps": [
+      "Prepare a marinade using yogurt and spices.",
+      "Coat chicken pieces evenly and marinate for at least 30 minutes.",
+      "Thread onto skewers or place on a tray.",
+      "Grill until fully cooked and slightly charred.",
+      "Serve with mint chutney."
+    ],
+    "substitutions": {
+      "chicken": ["paneer", "tofu"]
+    }
+  },
+  {
+    "name": "Butter Chicken",
+    "cuisine": "Indian",
+    "ingredients": ["chicken", "tomato", "butter", "cream"],
+    "time": "45 mins",
+    "difficulty": "Medium",
+    "description": "Creamy North Indian chicken curry with rich tomato gravy.",
+    "steps": [
+      "Cook marinated chicken until lightly browned.",
+      "Prepare a tomato-based gravy.",
+      "Add butter and cream to the gravy.",
+      "Mix chicken into the sauce.",
+      "Simmer and serve with naan or rice."
+    ],
+    "substitutions": {
+      "chicken": ["paneer"]
+    }
+  },
+  {
+    "name": "Chicken Biryani",
+    "cuisine": "Indian",
+    "ingredients": ["rice", "chicken", "onion", "yogurt"],
+    "time": "60 mins",
+    "difficulty": "Hard",
+    "description": "Aromatic layered rice dish cooked with chicken and spices.",
+    "steps": [
+      "Marinate chicken with yogurt and spices.",
+      "Partially cook the rice.",
+      "Layer rice and chicken in a pot.",
+      "Cook on low heat until flavors combine.",
+      "Serve hot with raita."
+    ],
+    "substitutions": {
+      "chicken": ["paneer", "mushroom"]
+    }
+  },
+  {
+    "name": "Chicken Curry",
+    "cuisine": "Indian",
+    "ingredients": ["chicken", "onion", "tomato", "ginger garlic paste"],
+    "time": "45 mins",
+    "difficulty": "Medium",
+    "description": "Traditional Indian chicken curry prepared with onions and spices.",
+    "steps": [
+      "Saute onions until golden brown.",
+      "Add ginger garlic paste and tomatoes.",
+      "Cook chicken with spices.",
+      "Add water and simmer.",
+      "Serve with rice or roti."
+    ],
+    "substitutions": {
+      "chicken": ["paneer"]
+    }
+  },
+  {
+    "name": "Mutton Rogan Josh",
+    "cuisine": "Indian",
+    "ingredients": ["mutton", "onion", "yogurt", "spices"],
+    "time": "90 mins",
+    "difficulty": "Hard",
+    "description": "Traditional Kashmiri mutton curry rich in flavor and spices.",
+    "steps": [
+      "Brown the mutton pieces.",
+      "Prepare onion and yogurt based gravy.",
+      "Add spices and cook slowly.",
+      "Simmer until meat becomes tender.",
+      "Serve hot with rice or naan."
+    ],
+    "substitutions": {
+      "mutton": ["chicken"]
+    }
+  },
+    {
+        "name": "Fish Curry",
+        "cuisine": "Indian",
+        "ingredients": ["fish", "onion", "tomato", "coconut milk"],
+        "time": "30 mins",
+        "difficulty": "Medium",
+        "description": "Spicy and tangy fish curry cooked in coconut milk.",
+        "steps": [
+        "Marinate fish with spices.",
+        "Prepare onion and tomato gravy.",
+        "Add coconut milk and simmer.",
+        "Add fish and cook until done.",
+        "Serve with rice."
+        ],
+        "substitutions": {
+        "fish": ["tofu"]
+        }
+    },
+    {
+        "name": "Prawn Curry",
+        "cuisine": "Indian",
+        "ingredients": ["prawns", "onion", "tomato", "coconut milk"],
+        "time": "30 mins",
+        "difficulty": "Medium",
+        "description": "Delicious prawn curry with a rich coconut base.",
+        "steps": [
+        "Marinate prawns with spices.",
+        "Prepare onion and tomato gravy.",
+        "Add coconut milk and simmer.",
+        "Add prawns and cook until done.",
+        "Serve with rice."
+        ],
+        "substitutions": {
+        "prawns": ["tofu"]
+        }
+    },
+  {
+    "name": "Pasta Marinara",
+    "cuisine": "Italian",
+    "ingredients": ["pasta", "tomato", "garlic"],
+    "time": "25 mins",
+    "difficulty": "Easy",
+    "description": "Classic pasta served with tomato marinara sauce.",
+    "steps": ["Boil pasta", "Prepare tomato sauce", "Mix together", "Serve hot"],
+    "substitutions": {"garlic": ["garlic powder"]}
+  },
+  {
+    "name": "White Sauce Pasta",
+    "cuisine": "Italian",
+    "ingredients": ["pasta", "milk", "butter", "cheese"],
+    "time": "30 mins",
+    "difficulty": "Easy",
+    "description": "Creamy pasta prepared with white sauce.",
+    "steps": ["Boil pasta", "Prepare white sauce", "Mix together", "Serve"],
+    "substitutions": {"milk": ["cream"]}
+  },
+  {
+    "name": "Arrabbiata Pasta",
+    "cuisine": "Italian",
+    "ingredients": ["pasta", "tomato", "chilli flakes", "garlic"],
+    "time": "25 mins",
+    "difficulty": "Easy",
+    "description": "Spicy Italian tomato pasta.",
+    "steps": ["Boil pasta", "Prepare spicy sauce", "Mix", "Serve"],
+    "substitutions": {"chilli flakes": ["red chilli powder"]}
+  },
+  {
+    "name": "Aglio e Olio",
+    "cuisine": "Italian",
+    "ingredients": ["spaghetti", "garlic", "olive oil"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Simple pasta with garlic and olive oil.",
+    "steps": ["Cook spaghetti", "Saute garlic", "Mix", "Serve"],
+    "substitutions": {"spaghetti": ["pasta"]}
+  },
+  {
+    "name": "Pesto Pasta",
+    "cuisine": "Italian",
+    "ingredients": ["pasta", "basil", "olive oil", "parmesan"],
+    "time": "25 mins",
+    "difficulty": "Easy",
+    "description": "Fresh basil pesto coated pasta.",
+    "steps": ["Prepare pesto", "Boil pasta", "Mix", "Serve"],
+    "substitutions": {"basil": ["spinach"]}
+  },
+  {
+    "name": "Lasagna",
+    "cuisine": "Italian",
+    "ingredients": ["lasagna sheets", "cheese", "tomato", "meat"],
+    "time": "60 mins",
+    "difficulty": "Hard",
+    "description": "Layered baked pasta dish.",
+    "steps": ["Prepare layers", "Add sauce", "Bake", "Serve"],
+    "substitutions": {"meat": ["mushroom"]}
+  },
+  {
+    "name": "Risotto",
+    "cuisine": "Italian",
+    "ingredients": ["arborio rice", "butter", "parmesan"],
+    "time": "40 mins",
+    "difficulty": "Medium",
+    "description": "Creamy Italian rice dish.",
+    "steps": ["Cook rice slowly", "Add stock", "Finish with cheese"],
+    "substitutions": {"parmesan": ["cheddar"]}
+  },
+  {
+    "name": "Bruschetta",
+    "cuisine": "Italian",
+    "ingredients": ["bread", "tomato", "garlic", "olive oil"],
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "description": "Toasted bread topped with tomatoes.",
+    "steps": ["Toast bread", "Prepare topping", "Serve"],
+    "substitutions": {"bread": ["baguette"]}
+  },
+  {
+    "name": "Margherita Pizza",
+    "cuisine": "Italian",
+    "ingredients": ["pizza dough", "tomato", "mozzarella", "basil"],
+    "time": "45 mins",
+    "difficulty": "Medium",
+    "description": "Traditional Italian pizza.",
+    "steps": ["Prepare base", "Add toppings", "Bake", "Serve"],
+    "substitutions": {"mozzarella": ["cheddar"]}
+  },
+  {
+    "name": "Minestrone Soup",
+    "cuisine": "Italian",
+    "ingredients": ["beans", "carrot", "tomato", "pasta"],
+    "time": "35 mins",
+    "difficulty": "Easy",
+    "description": "Vegetable-rich Italian soup.",
+    "steps": ["Cook vegetables", "Add pasta", "Simmer", "Serve"],
+    "substitutions": {"beans": ["chickpeas"]}
+  },
+  {
+    "name": "Focaccia Bread",
+    "cuisine": "Italian",
+    "ingredients": ["flour", "olive oil", "yeast"],
+    "time": "90 mins",
+    "difficulty": "Medium",
+    "description": "Italian flat oven-baked bread.",
+    "steps": ["Prepare dough", "Proof", "Bake", "Serve"],
+    "substitutions": {"olive oil": ["butter"]}
+  },
+  {
+    "name": "Caprese Salad",
+    "cuisine": "Italian",
+    "ingredients": ["tomato", "mozzarella", "basil"],
+    "time": "10 mins",
+    "difficulty": "Easy",
+    "description": "Fresh Italian salad.",
+    "steps": ["Slice ingredients", "Arrange", "Serve"],
+    "substitutions": {"mozzarella": ["paneer"]}
+  },
+  {
+    "name": "Mushroom Risotto",
+    "cuisine": "Italian",
+    "ingredients": ["arborio rice", "mushroom", "butter"],
+    "time": "40 mins",
+    "difficulty": "Medium",
+    "description": "Creamy risotto with mushrooms.",
+    "steps": ["Cook rice", "Add mushrooms", "Finish and serve"],
+    "substitutions": {"mushroom": ["paneer"]}
+  },
+  {
+    "name": "Four Cheese Pasta",
+    "cuisine": "Italian",
+    "ingredients": ["pasta", "cheddar", "mozzarella", "parmesan"],
+    "time": "30 mins",
+    "difficulty": "Easy",
+    "description": "Rich cheese-loaded pasta.",
+    "steps": ["Cook pasta", "Prepare cheese sauce", "Mix", "Serve"],
+    "substitutions": {"parmesan": ["processed cheese"]}
+  },
+  {
+    "name": "Garlic Bread",
+    "cuisine": "Italian",
+    "ingredients": ["bread", "garlic", "butter"],
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "description": "Toasted garlic flavored bread.",
+    "steps": ["Prepare garlic butter", "Bake bread", "Serve"],
+    "substitutions": {"butter": ["olive oil"]}
+  },
+  {
+    "name": "Chicken Alfredo Pasta",
+    "cuisine": "Italian",
+    "ingredients": ["pasta", "chicken", "cream", "parmesan"],
+    "time": "35 mins",
+    "difficulty": "Medium",
+    "description": "Creamy chicken pasta.",
+    "steps": ["Cook chicken", "Prepare sauce", "Mix pasta", "Serve"],
+    "substitutions": {"chicken": ["mushroom"]}
+  },
+  {
+    "name": "Chicken Parmesan",
+    "cuisine": "Italian",
+    "ingredients": ["chicken", "parmesan", "tomato sauce"],
+    "time": "40 mins",
+    "difficulty": "Medium",
+    "description": "Breaded chicken with cheese.",
+    "steps": ["Coat chicken", "Cook", "Add cheese", "Serve"],
+    "substitutions": {"chicken": ["eggplant"]}
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "cuisine": "Italian",
+    "ingredients": ["pizza dough", "pepperoni", "mozzarella"],
+    "time": "45 mins",
+    "difficulty": "Medium",
+    "description": "Popular meat-based pizza.",
+    "steps": ["Prepare base", "Add toppings", "Bake", "Serve"],
+    "substitutions": {"pepperoni": ["chicken sausage"]}
+  },
+  {
+    "name": "Seafood Risotto",
+    "cuisine": "Italian",
+    "ingredients": ["arborio rice", "shrimp", "butter"],
+    "time": "45 mins",
+    "difficulty": "Hard",
+    "description": "Italian risotto with seafood.",
+    "steps": ["Cook rice", "Prepare seafood", "Combine", "Serve"],
+    "substitutions": {"shrimp": ["mushroom"]}
+  },
+  {
+    "name": "Stuffed Ravioli",
+    "cuisine": "Italian",
+    "ingredients": ["ravioli pasta", "cheese", "spinach"],
+    "time": "50 mins",
+    "difficulty": "Hard",
+    "description": "Filled pasta pockets with cheese.",
+    "steps": ["Prepare filling", "Stuff pasta", "Cook", "Serve"],
+    "substitutions": {"spinach": ["mushroom"]}
+  },
+  {
+    "name": "Veg Tacos",
+    "cuisine": "Mexican",
+    "ingredients": ["tortilla", "lettuce", "tomato", "cheese"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Crispy tacos filled with vegetables and cheese.",
+    "steps": ["Prepare filling", "Fill tortillas", "Serve"],
+    "substitutions": {"cheese": ["paneer"]}
+  },
+  {
+    "name": "Chicken Tacos",
+    "cuisine": "Mexican",
+    "ingredients": ["tortilla", "chicken", "lettuce", "tomato"],
+    "time": "25 mins",
+    "difficulty": "Easy",
+    "description": "Chicken filled tacos with fresh vegetables.",
+    "steps": ["Cook chicken", "Prepare filling", "Assemble tacos"],
+    "substitutions": {"chicken": ["paneer"]}
+  },
+  {
+    "name": "Bean Burrito",
+    "cuisine": "Mexican",
+    "ingredients": ["tortilla", "beans", "rice", "cheese"],
+    "time": "25 mins",
+    "difficulty": "Easy",
+    "description": "Mexican wrap filled with beans and rice.",
+    "steps": ["Cook filling", "Wrap tortilla", "Serve"],
+    "substitutions": {"beans": ["chickpeas"]}
+  },
+  {
+    "name": "Chicken Burrito",
+    "cuisine": "Mexican",
+    "ingredients": ["tortilla", "chicken", "rice", "cheese"],
+    "time": "30 mins",
+    "difficulty": "Easy",
+    "description": "Protein-rich chicken burrito.",
+    "steps": ["Cook chicken", "Prepare filling", "Wrap and serve"],
+    "substitutions": {"chicken": ["paneer"]}
+  },
+  {
+    "name": "Quesadilla",
+    "cuisine": "Mexican",
+    "ingredients": ["tortilla", "cheese", "capsicum"],
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "description": "Grilled tortilla stuffed with cheese.",
+    "steps": ["Fill tortilla", "Grill", "Serve"],
+    "substitutions": {"cheese": ["paneer"]}
+  },
+  {
+    "name": "Nachos",
+    "cuisine": "Mexican",
+    "ingredients": ["nacho chips", "cheese", "jalapeno"],
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "description": "Crispy nachos topped with cheese.",
+    "steps": ["Arrange chips", "Add toppings", "Bake and serve"],
+    "substitutions": {"jalapeno": ["green chilli"]}
+  },
+  {
+    "name": "Enchiladas",
+    "cuisine": "Mexican",
+    "ingredients": ["tortilla", "chicken", "cheese", "sauce"],
+    "time": "40 mins",
+    "difficulty": "Medium",
+    "description": "Rolled tortillas baked with sauce.",
+    "steps": ["Prepare filling", "Roll tortillas", "Bake", "Serve"],
+    "substitutions": {"chicken": ["beans"]}
+  },
+  {
+    "name": "Mexican Rice",
+    "cuisine": "Mexican",
+    "ingredients": ["rice", "tomato", "corn", "beans"],
+    "time": "25 mins",
+    "difficulty": "Easy",
+    "description": "Flavorful Mexican-style rice.",
+    "steps": ["Cook rice", "Cook vegetables", "Mix", "Serve"],
+    "substitutions": {"beans": ["peas"]}
+  },
+  {
+    "name": "Guacamole",
+    "cuisine": "Mexican",
+    "ingredients": ["avocado", "onion", "tomato", "lemon"],
+    "time": "10 mins",
+    "difficulty": "Easy",
+    "description": "Fresh avocado dip.",
+    "steps": ["Mash avocado", "Mix ingredients", "Serve"],
+    "substitutions": {"avocado": ["green peas puree"]}
+  },
+  {
+    "name": "Chicken Fajitas",
+    "cuisine": "Mexican",
+    "ingredients": ["chicken", "capsicum", "onion", "tortilla"],
+    "time": "30 mins",
+    "difficulty": "Medium",
+    "description": "Sizzling chicken and vegetable wraps.",
+    "steps": ["Cook chicken", "Cook vegetables", "Wrap", "Serve"],
+    "substitutions": {"chicken": ["paneer"]}
+  },
+  {
+    "name": "Veg Fajitas",
+    "cuisine": "Mexican",
+    "ingredients": ["capsicum", "onion", "tortilla", "mushroom"],
+    "time": "25 mins",
+    "difficulty": "Easy",
+    "description": "Vegetarian version of fajitas.",
+    "steps": ["Cook vegetables", "Wrap", "Serve"],
+    "substitutions": {"mushroom": ["paneer"]}
+  },
+  {
+    "name": "Bean Chili",
+    "cuisine": "Mexican",
+    "ingredients": ["beans", "tomato", "onion", "chilli"],
+    "time": "35 mins",
+    "difficulty": "Medium",
+    "description": "Spicy bean-based stew.",
+    "steps": ["Cook beans", "Prepare sauce", "Simmer", "Serve"],
+    "substitutions": {"beans": ["kidney beans"]}
+  },
+  {
+    "name": "Corn Salsa",
+    "cuisine": "Mexican",
+    "ingredients": ["corn", "tomato", "onion", "lemon"],
+    "time": "10 mins",
+    "difficulty": "Easy",
+    "description": "Fresh salsa made with corn.",
+    "steps": ["Chop ingredients", "Mix", "Serve"],
+    "substitutions": {"corn": ["sweet corn"]}
+  },
+  {
+    "name": "Tortilla Wrap",
+    "cuisine": "Mexican",
+    "ingredients": ["tortilla", "lettuce", "tomato", "cheese"],
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "description": "Quick vegetable wrap.",
+    "steps": ["Prepare filling", "Wrap", "Serve"],
+    "substitutions": {"cheese": ["paneer"]}
+  },
+  {
+    "name": "Loaded Nachos",
+    "cuisine": "Mexican",
+    "ingredients": ["nacho chips", "beans", "cheese", "jalapeno"],
+    "time": "20 mins",
+    "difficulty": "Easy",
+    "description": "Fully loaded nacho platter.",
+    "steps": ["Arrange chips", "Add toppings", "Bake", "Serve"],
+    "substitutions": {"beans": ["corn"]}
+  },
+  {
+    "name": "Chicken Enchiladas",
+    "cuisine": "Mexican",
+    "ingredients": ["chicken", "tortilla", "cheese", "sauce"],
+    "time": "40 mins",
+    "difficulty": "Medium",
+    "description": "Chicken-filled baked tortillas.",
+    "steps": ["Prepare filling", "Roll", "Bake", "Serve"],
+    "substitutions": {"chicken": ["beans"]}
+  },
+  {
+    "name": "Beef Burrito",
+    "cuisine": "Mexican",
+    "ingredients": ["beef", "rice", "beans", "tortilla"],
+    "time": "35 mins",
+    "difficulty": "Medium",
+    "description": "Traditional beef burrito.",
+    "steps": ["Cook beef", "Prepare filling", "Wrap", "Serve"],
+    "substitutions": {"beef": ["chicken"]}
+  },
+  {
+    "name": "Beef Tacos",
+    "cuisine": "Mexican",
+    "ingredients": ["beef", "tortilla", "lettuce", "tomato"],
+    "time": "25 mins",
+    "difficulty": "Easy",
+    "description": "Tacos filled with seasoned beef.",
+    "steps": ["Cook beef", "Fill tacos", "Serve"],
+    "substitutions": {"beef": ["chicken"]}
+  },
+  {
+    "name": "Shrimp Tacos",
+    "cuisine": "Mexican",
+    "ingredients": ["shrimp", "tortilla", "lettuce", "lemon"],
+    "time": "25 mins",
+    "difficulty": "Medium",
+    "description": "Fresh seafood tacos.",
+    "steps": ["Cook shrimp", "Prepare filling", "Serve"],
+    "substitutions": {"shrimp": ["fish"]}
+  },
+  {
+    "name": "Mexican Street Corn",
+    "cuisine": "Mexican",
+    "ingredients": ["corn", "butter", "cheese", "chilli powder"],
+    "time": "15 mins",
+    "difficulty": "Easy",
+    "description": "Popular grilled corn snack.",
+    "steps": ["Grill corn", "Add toppings", "Serve"],
+    "substitutions": {"cheese": ["paneer"]}
+  }
+]

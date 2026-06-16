@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>SmartChef AI</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+        body{
+            background:#f5f7fb;
+        }
+
+        .sidebar{
+            background:white;
+            border-radius:12px;
+            padding:20px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+            height:100%;
+        }
+
+        .recipe-card{
+            background:white;
+            border-radius:12px;
+            padding:20px;
+            margin-bottom:20px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .have{
+            background:#d1e7dd;
+            color:#0f5132;
+            padding:5px 10px;
+            border-radius:20px;
+            display:inline-block;
+            margin:4px;
+        }
+
+        .missing{
+            background:#f8d7da;
+            color:#842029;
+            padding:5px 10px;
+            border-radius:20px;
+            display:inline-block;
+            margin:4px;
+        }
+
+        .score-high{
+            background:#198754;
+            color:white;
+            padding:5px 12px;
+            border-radius:20px;
+        }
+
+        .score-medium{
+            background:#ffc107;
+            color:black;
+            padding:5px 12px;
+            border-radius:20px;
+        }
+
+        .score-low{
+            background:#dc3545;
+            color:white;
+            padding:5px 12px;
+            border-radius:20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container-fluid mt-4">
+
+    <div class="row">
+
+        <div class="col-md-3">
+
+            <div class="sidebar">
+
+                <h4>Ingredients Catalog</h4>
+
+                <hr>
+
+                <h5>{{ selected_cuisine }}</h5>
+
+                {% for ingredient in ingredient_catalog[selected_cuisine] %}
+
+                    <span class="badge bg-secondary m-1">
+                        {{ ingredient }}
+                    </span>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+        <div class="col-md-9">
+
+            <h1 class="mb-3">
+                🍳 SmartChef AI
+            </h1>
+
+            <p>
+                Discover recipes using ingredients already available in your kitchen.
+            </p>
+
+            <form method="POST" class="card p-4 mb-4">
+
+                <label class="form-label">
+                    Ingredients
+                </label>
+
+                <textarea
+                    name="ingredients"
+                    class="form-control"
+                    rows="4"
+                    placeholder="rice, onion, egg"
+                    required></textarea>
+
+                <br>
+
+                <label class="form-label">
+                    Cuisine
+                </label>
+
+                <select
+                    class="form-select"
+                    name="cuisine">
+
+                    <option>Indian</option>
+                    <option>Chinese</option>
+                    <option>Italian</option>
+                    <option>Mexican</option>
+
+                </select>
+
+                <br>
+
+                <button
+                    class="btn btn-primary">
+                    Find Recipes
+                </button>
+
+            </form>
+
+            {% for recipe in results %}
+
+            <div class="recipe-card">
+
+                <h2>{{ recipe.name }}</h2>
+
+                {% if recipe.score >= 70 %}
+                    <span class="score-high">
+                        {{ recipe.score }}% Match
+                    </span>
+                {% elif recipe.score >= 40 %}
+                    <span class="score-medium">
+                        {{ recipe.score }}% Match
+                    </span>
+                {% else %}
+                    <span class="score-low">
+                        {{ recipe.score }}% Match
+                    </span>
+                {% endif %}
+
+                <hr>
+
+                <p><strong>Cuisine:</strong> {{ recipe.cuisine }}</p>
+                <p><strong>Time:</strong> {{ recipe.time }}</p>
+                <p><strong>Difficulty:</strong> {{ recipe.difficulty }}</p>
+                <p><strong>Description:</strong> {{ recipe.description }}</p>
+
+                <h5>✓ Ingredients You Have</h5>
+
+                {% for item in recipe.matched %}
+                    <span class="have">
+                        {{ item }}
+                    </span>
+                {% endfor %}
+
+                <br><br>
+
+                <h5>✗ Ingredients Required</h5>
+
+                {% for item in recipe.missing %}
+                    <span class="missing">
+                        {{ item }}
+                    </span>
+                {% endfor %}
+
+                <br><br>
+
+                <h5>Cooking Steps</h5>
+
+                <ol>
+
+                    {% for step in recipe.steps %}
+                        <li>{{ step }}</li>
+                    {% endfor %}
+
+                </ol>
+
+                <h5>Substitutions</h5>
+
+                <ul>
+
+                    {% for key, value in recipe.substitutions.items() %}
+
+                        <li>
+                            <strong>{{ key }}</strong>
+                            → {{ value|join(', ') }}
+                        </li>
+
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
